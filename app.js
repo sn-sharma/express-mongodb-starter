@@ -20,6 +20,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
+
+// route
 app.use(route);
 
 // catch 404 and forward to error handler
